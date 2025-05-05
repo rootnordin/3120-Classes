@@ -8,6 +8,7 @@ class Animal:
         print(f"Hello, I am {self._name}")
 
     def talk(self):
+ brandon
         print("Hi there! I am an animal")
 
     def eat(self):
@@ -31,3 +32,21 @@ class Animal:
         else:
             print("Speed cannot be negative.")
 
+        print("WOOF!")
+#Addtional 5 functions
+    
+    def eat(self, food):
+        print(f"{self.__name} eats {food}.")  
+        
+    def sleep(self, hours):
+        print(f"{self.__name} sleeps for {hours} hours.")
+ main
+
+    def play(self):
+        print(f"{self.__name} is playing fetch!")
+
+    def groom(self):
+        print(f"{self.__name} is cleaning himself with water.")
+
+    def make_sound(self):
+        print(f"{self.__name} makes a barking sound.")
